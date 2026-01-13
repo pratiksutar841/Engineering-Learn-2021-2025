@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/action.php">
+        <h1>Registration Form</h1>
+        
+        <input type="text" placeholder="Enter your ID">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <p>select your class</p>
+        <input type="radio" value="class XI" name="class">Class XI
+        <br>
+        <input type="radio" value="class XII" name="class">Class XII
+        
+        <p>Select fav subject</p>
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="1o1">maths
+    </label>
+    <br>
+    <label for="physics">
+        <input type="checkbox" value="physics" name="subject" id="1o2">physics
+    </label>   
+    <br>
+    <label for="chemistry">
+        <input type="checkbox" value="chemistry" name="subject" id="1o3">chemistry
+    </label> 
+    
+    <br>
+    <label for="Graphics">
+        <input type="checkbox" value="Graphics" name="subject" id="1o4">Graphics
+    </label> 
+    <br>
+    <label for="Hindi">
+        <input type="checkbox" value="hindi" name="subject" id="1o1">Hindi
+    </label> 
+    <br>
+    <select name="city">
+        <br>
+        <option value="Nipani">Nipani</option>
+        <option value="pune">Pune</option>
+        <option value="kolhapur">kolhapur</option>
+        <option value="dharwad">Dharwad</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="feedback" id="101" placeholder="please give your valuable feedback">feedback</textarea>
+
+    </form>
+
+</body>
+</html>
